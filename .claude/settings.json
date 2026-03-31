@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay /System/Library/Sounds/Hero.aiff &"
+            "command": "\"$(git rev-parse --show-toplevel)/.claude/sounds/play.sh\" hero"
           }
         ]
       }
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay /System/Library/Sounds/Pop.aiff &"
+            "command": "\"$(git rev-parse --show-toplevel)/.claude/sounds/play.sh\" pop"
           }
         ]
       }
@@ -39,7 +39,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay /System/Library/Sounds/Pop.aiff &"
+            "command": "\"$(git rev-parse --show-toplevel)/.claude/sounds/play.sh\" pop"
           }
         ]
       }
